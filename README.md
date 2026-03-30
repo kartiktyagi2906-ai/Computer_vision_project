@@ -49,8 +49,8 @@ The app will open in your browser at `http://localhost:8501`.
 
 ##  Usage
 
-### 📸 Image Detection
-1. Select **📸 Image Upload** in the sidebar
+###  Image Detection
+1. Select **Image Upload** in the sidebar
 2. Upload a JPG/PNG image
 3. View the annotated result with bounding boxes and confidence scores
 
