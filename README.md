@@ -1,4 +1,4 @@
-# 🎯 Real-Time Object Detection System
+#  Real-Time Object Detection System
 
 A real-time object detection system built with **YOLOv8** and **Streamlit** that can detect and classify 80+ object types from images, videos, or a live webcam feed.
 
@@ -9,7 +9,7 @@ A real-time object detection system built with **YOLOv8** and **Streamlit** that
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Three Input Modes**: Image upload, video upload, and live webcam feed
 - **Multiple Model Variants**: Switch between YOLOv8 Nano (fast), Small (balanced), and Medium (accurate)
@@ -21,7 +21,7 @@ A real-time object detection system built with **YOLOv8** and **Streamlit** that
 
 ---
 
-## 🛠️ Setup & Installation
+##  Setup & Installation
 
 ### 1. Prerequisites
 - Python 3.8 or later
@@ -47,31 +47,31 @@ The app will open in your browser at `http://localhost:8501`.
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### 📸 Image Detection
 1. Select **📸 Image Upload** in the sidebar
 2. Upload a JPG/PNG image
 3. View the annotated result with bounding boxes and confidence scores
 
-### 🎬 Video Detection
-1. Select **🎬 Video Upload** in the sidebar
+###  Video Detection
+1. Select ** Video Upload** in the sidebar
 2. Upload an MP4/AVI/MOV video
 3. Watch real-time frame-by-frame detection with FPS overlay
 
-### 📹 Live Webcam
-1. Select **📹 Live Webcam** in the sidebar
-2. Click **▶️ Start Webcam**
+###  Live Webcam
+1. Select ** Live Webcam** in the sidebar
+2. Click ** Start Webcam**
 3. See live detection with bounding boxes and performance metrics
 
-### ⚙️ Controls
+###  Controls
 - **Model Selection**: Choose between Nano (fastest), Small (balanced), or Medium (most accurate)
 - **Confidence Threshold**: Filter out low-confidence detections (default: 0.40)
 - **IOU Threshold**: Adjust non-max suppression overlap tolerance (default: 0.45)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 cv_project/
@@ -87,7 +87,7 @@ cv_project/
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. **Model Loading**: A pretrained YOLOv8 model is loaded via Ultralytics
 2. **Input Processing**: Images/video frames are read via OpenCV
@@ -97,7 +97,7 @@ cv_project/
 
 ---
 
-## 🧰 Technologies
+##  Technologies
 
 | Technology | Purpose |
 |-----------|---------|
@@ -109,7 +109,7 @@ cv_project/
 
 ---
 
-## 📊 Detected Object Classes (COCO)
+##  Detected Object Classes (COCO)
 
 The system can detect **80 classes** including:
 - **People**: person
@@ -123,6 +123,6 @@ The system can detect **80 classes** including:
 
 ---
 
-## 📄 License
+##  License
 
 This project is for educational purposes.
